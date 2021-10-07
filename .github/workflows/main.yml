@@ -2,7 +2,7 @@ name: Dockerfile to Docker HUB
 on:
   push:
     tags:
-      - "v*.*.*"
+      - "latest"
 
 jobs:
 
