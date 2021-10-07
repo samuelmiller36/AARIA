@@ -1,8 +1,8 @@
-name: CI to Docker Hub 
-
+name: Dockerfile to Docker HUB
 on:
   push:
-    branches: [ main ]
+    tags:
+      - "v*.*.*"
 
 jobs:
 
