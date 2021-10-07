@@ -20,7 +20,7 @@ RUN pip3 install keras==2.4.0
 RUN pip3 install matplotlib==3.3.4
 RUN pip3 install tensorflow
 
-RUN git clone https://github.com/samuelmiller36/audio-super-res.git
+#RUN git clone https://github.com/samuelmiller36/audio-super-res.git
 WORKDIR /usr/src/app/audio-super-res/data/vctk
 #ONBUILD RUN make;
 WORKDIR /usr/src/app/audio-super-res
