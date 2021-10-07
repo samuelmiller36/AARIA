@@ -22,7 +22,7 @@ RUN pip3 install tensorflow
 
 RUN git clone https://github.com/samuelmiller36/audio-super-res.git
 WORKDIR /usr/src/app/audio-super-res/data/vctk
-ONBUILD RUN make;
+#ONBUILD RUN make;
 WORKDIR /usr/src/app/audio-super-res
 
 #EXPOSE 22
