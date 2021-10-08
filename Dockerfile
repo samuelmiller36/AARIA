@@ -4,6 +4,7 @@ ARG TARGETPLATFORM
 RUN echo "I'm running on $TARGETPLATFORM"
 
 RUN apt update && apt upgrade -y
+RUN apt install wget -y
 RUN apt install git -y
 RUN apt install python3 -y
 RUN apt install python3-dev -y
